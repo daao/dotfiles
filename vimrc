@@ -15,7 +15,8 @@ set expandtab             " use spaces instead of tabs
 set t_Co=256              " 256-color use color numbers with cterm..
 syntax enable
 filetype plugin indent on
-
+" ========= SWAP FILES =========
+set dir=~/tmp
 " ========= STATUS BAR =========
 set wildmode=full
 set wildmenu
