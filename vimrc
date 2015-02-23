@@ -20,6 +20,9 @@ set dir=~/tmp
 " ========= STATUS BAR =========
 set wildmode=full
 set wildmenu
+" indentation easier
+vnoremap > ><CR>gv 
+vnoremap < <<CR>gv 
 
 call plug#begin('~/.vim/plugged')
 
